@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <title>
+        task 3
+
+    </title>
+    <header>
+        <h1 style="text-align: center;"><b>Contact Us</b> </h1>
+        <style>
+            .a{
+                display: flex;
+                margin-bottom: 10px;
+            }
+            form{
+                text-align: left;
+                padding: 30px;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+                width: 400px; 
+                margin: 0 auto;
+            }
+            label{
+                display: block;
+                margin-bottom: 10px;
+            }
+            input{
+                box-sizing: border-box;
+                width: 100%;
+                margin-bottom: 15px;
+                padding: 10px;
+            }
+
+            .b{
+                width:100%;
+                box-sizing: border-box;
+                background-color: #4CAF50;
+                color: whitesmoke;
+                border: none;
+                border-radius: 5px;
+            }
+
+        
+        </style>
+
+    </header>
+    <body>
+        <form id="Contact" action="/task3" method="get">
+
+                <label for="name">Your Name</label><br>
+                <input type="text" id="name" name="name" value="Hannan Farooq"><br>
+                <label for="Email">Your Email</label><br>
+                <input type="email" id="Email" name="Email" value="HannanFarooq@example.com"><br>
+                <label for="phone">Your Phone Number</label><br>
+                <input type="tel" id="phone" name="phone" value="Format: 123-456-7890"><br>
+                <label for="message">Your Message</label><br>
+                <input type="text" id="name" name="message" value="Type your text here..."><br>
+                <input  class="b" type="submit" value="Submit"><br>
+                <input class="b" type="reset" value="Reset">
+        </form>
+
+    </body>
+</html>
